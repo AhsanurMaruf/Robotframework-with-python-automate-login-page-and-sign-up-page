@@ -131,7 +131,7 @@ Suite Teardown    Close Browser
 *** Variables ***
 ${URL}                  https://beta.rcms.gov.bd/login/
 ${VALID_USER_ID}        MoFAU_OF@iom.int
-${VALID_PASSWORD}       Secr3t
+${VALID_PASSWORD}       #it's can not be provide
 ${INVALID_USER_ID}      InvalidUser
 ${INVALID_PASSWORD}     invalidPass
 ${DASHBOARD_URL}        https://beta.rcms.gov.bd/login/designation  # Ensure this URL matches the actual dashboard URL after signup.
